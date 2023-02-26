@@ -35,6 +35,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-image: url("https://res.cloudinary.com/crochet/image/upload/v1677241168/Gears_5_ter%C3%A1_uma_nova_expans%C3%A3o_pdz7rz.jpg");
+  background-repeat: no-repeat;
   
 }
 
@@ -106,7 +107,34 @@ ul{
   
 }
 
+main{
+  display: flex;
+  justify-content: center;
+  padding: 64px;
 
+}
+
+.img_locust{
+  height: 400px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Logo_Epic{
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+
+.text_footer{
+  color: #ffffff;
+  display: flex;
+  margin-right: 250px;
+}
 
 .Cog{
   color: #0fcbe4;
